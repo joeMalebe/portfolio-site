@@ -1,3 +1,7 @@
+$primaryColour: #039763;
+
+@import 'animate.css';
+
 .App {
   text-align: center;
 }
@@ -25,7 +29,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: $primaryColour;
 }
 
 @keyframes App-logo-spin {
