@@ -1,6 +1,7 @@
-$primaryColour: #039763;
-
+@import 'colors';
 @import 'animate.css';
+
+
 
 .App {
   text-align: center;
@@ -18,7 +19,7 @@ $primaryColour: #039763;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: $background-gray;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
