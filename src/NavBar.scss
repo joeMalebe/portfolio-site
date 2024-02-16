@@ -1,0 +1,25 @@
+@import 'colors';
+.NavBar {
+    background-color: $background-gray;
+    overflow: hidden;
+    
+    
+
+    a{
+        float: right;
+        padding: 14px 16px;
+        text-align: center;
+        color: $text-gray;
+        text-decoration: none;
+        font-size: 17px;
+        transition: all 1.5s;
+        -webkit-transition: 1s;
+        top: 0px;
+    }
+    a:hover{
+        position: relative;
+        top: 8px;
+        color: $primaryColour;
+    }
+}
+
