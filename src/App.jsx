@@ -6,8 +6,8 @@ import Home from "./components/Home";
 
 function App() {
   return (
-    <>
-      <div className="container-fluid">
+    
+      <div class="container-fluid overflow-hidden">
         <dic>
           <NavBar />
         </dic>
@@ -20,7 +20,6 @@ function App() {
           
         </div>
       </div>
-    </>
   );
 }
 

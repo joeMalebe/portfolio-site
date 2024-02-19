@@ -9,6 +9,10 @@ img{
     height: 100%;
 }
 
+.Slogan {
+    margin-top: 10%;
+}
+
 body {
     height: calc(100vh - 8em);
     padding: 4em;
@@ -20,13 +24,14 @@ body {
 .line1 {
     position: relative;
     top: 50%;
-    width: 20.3em;
+    width: 10.5em;
     margin: 0 auto;
     border-right: 2px solid transparent;
-    font-size: 180%;
+    font-size: 130%;
     text-align: left;
     white-space: nowrap;
-    overflow: hidden;transform: translateY(-50%);
+    overflow: hidden;
+    transform: translateY(-50%);
 }
 
 /*Animation*/
@@ -41,7 +46,7 @@ body {
           width: 0;
     }
     to {
-          width: 15.3em;
+          width: 10.5em;
     }
 }
 
@@ -58,10 +63,10 @@ body {
 .line2 {
     position: relative;
     top: 50%;
-    width: 2.3em;
+    width: 7.5em;
     margin: 0 auto;
     border-right: 2px solid transparent;
-    font-size: 180%;
+    font-size: 130%;
     text-align: left;
     white-space: nowrap;
     overflow: hidden;transform: translateY(-50%);
@@ -79,7 +84,7 @@ body {
           width: 0;
     }
     to {
-          width: 5.2em;
+          width: 7.5em;
     }
 }
 

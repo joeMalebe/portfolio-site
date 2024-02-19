@@ -1,26 +1,29 @@
 import { TagCloud } from "@frank-mayer/react-tag-cloud";
 import "../SpinningTagCloud.scss";
+
+
+
 function SpinningTagCloud() {
   return (
-    <TagCloud
+    <TagCloud className="Tagcloud"
       options={(window) => ({
-        radius: Math.min(200, window.innerWidth, window.innerHeight) / 2,
+        radius: Math.min(300, window.innerWidth, window.innerHeight) / 2,
         maxSpeed: "fast",
       })}
       onClick={(tag, event) => alert(tag)}
       onClickOptions={{ passive: true }}
     >
       {[
-        "VSCode",
-        "TypeScript",
-        "React",
-        "Preact",
-        "Parcel",
-        "Jest",
-        "Next",
-        "ESLint",
-        "Framer Motion",
-        "Three.js",
+        "Android",
+        "Kotlin",
+        "Java",
+        "Node",
+        "SpringBoot",
+        "JetPack",
+        "JavaScript",
+        "RxJava",
+        "RoomDB",
+        "Firebase",
       ]}
     </TagCloud>
   );
