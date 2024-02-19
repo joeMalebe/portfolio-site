@@ -8,14 +8,14 @@ function Home() {
         <div className="row ">
           <div className="col-lg">
             <div class="vstack gap-3">
-              <div>
-                <h4 className="line2 anim-typewriter2"> Hello world! </h4>
+              <div class='Slogan'>
+                <h4 className="line2 anim-typewriter2"> Software Engineer </h4>
                 <p className="line1 anim-typewriter1">
-                  Code. Create. Android Awesomeness.
+                Engineer. Innovate. Lead.
                 </p>
               </div>
               <div>
-                <SpinningTagCloud className='TagCloud' />
+                <SpinningTagCloud className='d-flex justify-content-center' />
               </div>
             </div>
           </div>

@@ -4,8 +4,16 @@
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 650;
-  margin-left: 30%;
-  color: #460;
+  margin-right: 30% ;
+  margin-left: 30% ;
+  margin-top: 10% ;
+  color: $primaryColour;
+  position: relative; 
+  
+  .Tagcloud:hover {
+    color: #000;
+  }
+  
 }
 .Tagcloud--item {
   color: $text-gray;
