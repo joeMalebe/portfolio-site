@@ -3,7 +3,7 @@ import "../SpinningTagCloud.scss";
 
 
 
-function SpinningTagCloud() {
+export function SpinningTagCloud() {
   return (
     <TagCloud className="Tagcloud"
       options={(window) => ({
@@ -28,4 +28,22 @@ function SpinningTagCloud() {
     </TagCloud>
   );
 }
+
+export function SpinningTagClouds({sptags}) {
+  return (
+    <>
+    <TagCloud  className="Tagcloud"
+      options={(window) => ({
+        radius: Math.min(300, window.innerWidth, window.innerHeight) / 2,
+        maxSpeed: "fast",
+      })}
+      onClick={(tag, event) => alert(tag)}ß
+      onClickOptions={{ passive: true }}
+    >
+      {sptags}
+    </TagCloud>
+    </>
+  );
+}
 export default SpinningTagCloud;
+

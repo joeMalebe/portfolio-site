@@ -4,7 +4,7 @@ import "./App.scss";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import SkillsPage from "./components/SkillsPage";
+import ExperiencePage from "./components/ExperiencePage";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" exact Component={Home} />
-          <Route path="/skills" Component={SkillsPage} />
+          <Route path="/skills" Component={ExperiencePage} />
         </Routes>
       </div>
     </div>
