@@ -6,7 +6,7 @@ function Home() {
     <>
       <div className="container-fluid Page">
         <div className="row ">
-          <div className="col-lg">
+          <div className="col col-lg">
             <div class="vstack gap-3">
               <div class='Slogan'>
                 <h4 className="line2 anim-typewriter2"> Software Engineer </h4>
@@ -15,12 +15,12 @@ function Home() {
                 </p>
               </div>
               <div>
-                <SpinningTagCloud className='d-flex justify-content-center' />
+                <SpinningTagCloud  />
               </div>
             </div>
           </div>
 
-          <div className="col-lg">
+          <div className="col col-lg">
             <img src={homeImage} />
           </div>
         </div>
