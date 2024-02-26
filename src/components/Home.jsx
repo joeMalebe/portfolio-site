@@ -7,10 +7,10 @@ function Home() {
       <div className="container-fluid Page">
         <div className="row ">
           <div className="col col-lg">
-            <div class="vstack gap-3">
-              <div class='Slogan'>
-                <h4 className="line2 anim-typewriter2"> Software Engineer </h4>
-                <p className="line1 anim-typewriter1">
+            <div className="vstack gap-3">
+              <div className='Slogan'>
+                <h4 className="line2 anim-typewriter2 SloganBody"> Software Engineer </h4>
+                <p className="line1 anim-typewriter1 SloganBody">
                 Engineer. Innovate. Lead.
                 </p>
               </div>
