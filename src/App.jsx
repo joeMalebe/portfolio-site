@@ -4,7 +4,7 @@ import "./App.scss";
 import NavBar from "./components/NavBar";
 import { HomePage } from "./pages/home/index";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import ExperiencePage from "./components/ExperiencePage";
+import { ExperiencePage } from "./pages/experience/index";
 
 function App() {
   return (
