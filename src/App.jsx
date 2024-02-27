@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import "./App.scss";
 import NavBar from "./components/NavBar";
-import Home from "./components/Home";
+import { HomePage } from "./pages/home/index";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import ExperiencePage from "./components/ExperiencePage";
 
@@ -14,7 +14,7 @@ function App() {
       </div>
       <div>
         <Routes>
-          <Route path="/" exact Component={Home} />
+          <Route path="/" exact Component={HomePage} />
           <Route path="/skills" Component={ExperiencePage} />
         </Routes>
       </div>
