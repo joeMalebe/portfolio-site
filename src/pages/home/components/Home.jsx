@@ -1,6 +1,13 @@
 import homeImage from "../assets/homeImg.png";
 import SpinningTagCloud from "./SpinningTagCloud";
+import { SocialIcon } from 'react-social-icons';
 import "./Home.scss";
+const Github = <SocialIcon url="https://github.com/joeMalebe" bgColor="currentColor" />
+const LinkedIn = <SocialIcon url="https://www.linkedin.com/in/joe-malebe-08677478/" bgColor="currentColor"  className="SocialIcon"/>
+const StackOverflow = <SocialIcon url="https://stackoverflow.com/users/4377454/joe-malebe/" bgColor="currentColor"/>
+const AppStore = <SocialIcon network="google_play" url="https://play.google.gmail/apps/details?id=za.co.app.budgetbee&hl=en&gl=US" bgColor="currentColor"/>
+const Email = <SocialIcon network="email" url="mailto:jtekniq@gmail.com" bgColor="currentColor"/>
+
 function Home() {
   return (
     <>
@@ -16,6 +23,14 @@ function Home() {
               </div>
               <div>
                 <SpinningTagCloud  />
+                <span>
+                {Github}
+                {LinkedIn}
+                {StackOverflow}
+                {AppStore}
+                {Email}
+                </span>
+                
               </div>
             </div>
           </div>
