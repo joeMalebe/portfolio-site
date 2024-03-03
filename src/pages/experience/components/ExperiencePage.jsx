@@ -38,11 +38,11 @@ const experienceList = (experienceList) => {
 
 const ExperienceItem = (experience) => {
   return <>
-          <div className="col col-lg-2">
+          <div className="col-lg-2">
             {}
             <h3>{experience.companyName}</h3>
             <h4>{experience.timeAtCompany}</h4>
-            <div>
+            <div style={{paddingBottom: "2em"}}>
               <TagCloud
                 minSize={10}
                 maxSize={15}
@@ -55,7 +55,7 @@ const ExperienceItem = (experience) => {
               />
             </div>
           </div>
-          <div className="col col-lg-10">
+          <div className="col-lg-10">
             {ExperienceRolesAndResponsibility(experience.experienceDescription)}
           </div>
         </>
