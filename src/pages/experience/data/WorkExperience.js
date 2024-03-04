@@ -44,7 +44,11 @@ const getExperiences = [
       { value: "RxJava" },
       { value: "SpringBoot" },
       { value: "Java" },
-      { value: "Kotlin" },
+      { value: "Dynatrace" },
+      { value: "Google analytics" },
+      { value: "MVI" },
+      { value: "Microservice" },
+      { value: "Google maps" },
     ]
   ),
 ];
