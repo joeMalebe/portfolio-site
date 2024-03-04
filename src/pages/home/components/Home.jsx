@@ -44,11 +44,10 @@ function Home() {
             <div className="vstack gap-3">
               <div className="Slogan">
                 <h4 className="line2 anim-typewriter2 SloganBody">
-                  {" "}
-                  Software Engineer{" "}
+                  Joe Malebe
                 </h4>
                 <p className="line1 anim-typewriter1 SloganBody">
-                  Engineer. Innovate. Lead.
+                The Software Engineer
                 </p>
               </div>
               <div>
