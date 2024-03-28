@@ -3,7 +3,7 @@ import SpinningTagCloud from "./SpinningTagCloud";
 import { SocialIcon } from "react-social-icons";
 import "./Home.scss";
 
-const style = { width: 25, height: 25, margin: 6 };
+const style = { width: 35, height: 35, margin: 6 };
 
 const Github = (
   <SocialIcon
@@ -27,7 +27,7 @@ const StackOverflow = (
 const AppStore = (
   <SocialIcon
     network="google_play"
-    url="https://play.google.gmail/apps/details?id=za.co.app.budgetbee&hl=en&gl=US"
+    url="https://play.google.com/store/apps/details?id=za.co.app.budgetbee&hl=en&gl=TR"
     style={style}
   />
 );
