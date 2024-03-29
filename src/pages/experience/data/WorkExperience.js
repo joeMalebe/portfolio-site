@@ -14,9 +14,6 @@ class DescriptionPoint {
   }
 }
 
-
-
-
 const clearScore = new WorkExperience(
   "ClearScore",
   [
