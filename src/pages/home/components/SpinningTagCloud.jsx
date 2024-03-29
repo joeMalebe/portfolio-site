@@ -1,8 +1,6 @@
 import { TagCloud } from "@frank-mayer/react-tag-cloud";
 import "./SpinningTagCloud.scss";
 
-
-
 export function SpinningTagCloud() {
   return (
     <TagCloud className="Tagcloud"
