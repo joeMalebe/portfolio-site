@@ -6,7 +6,9 @@ function NavBar() {
     <>
       <div className="NavBar">
         <a href="#Projects">Projects</a>
-        <a href="#Experience">Experience</a>
+        <Link to="experience">
+          Experience
+        </Link>
         <Link to="/skills">
           Skills
         </Link>

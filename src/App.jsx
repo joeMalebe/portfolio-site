@@ -15,7 +15,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" exact Component={HomePage} />
-          <Route path="/skills" Component={ExperiencePage} />
+          <Route path="/experience" Component={ExperiencePage} />
         </Routes>
       </div>
     </div>
