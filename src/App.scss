@@ -3,6 +3,8 @@
 
 .Page{
   background-color: $background-gray;
+  overflow-y: auto;
+  height: 100vh;
 }
 
 .App {

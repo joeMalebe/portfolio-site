@@ -1,0 +1,39 @@
+@import "../../../colors";
+
+$height: 200px;
+
+.Card {
+  color: black;
+  fill: black;
+  height: $height;
+  width: 18rem;
+  transition: height 400ms ease-in-out;
+}
+
+.CardImage {
+  object-fit: cover;
+  width: 100%;
+  height: $height;
+  transition: height 400ms linear;
+}
+
+.Card:hover {
+    height: 360px;
+  .CardImage {
+    height: 0%;
+  }
+  .CardText {
+    opacity: 1;
+    transition: opacity 400ms ease-in-out;
+  }
+}
+
+.CardText {
+    opacity: 0;
+    transition: opacity 400ms ease-in-out;
+}
+
+.Page {
+  background-color: $background-gray;
+  height: 100vh;
+}

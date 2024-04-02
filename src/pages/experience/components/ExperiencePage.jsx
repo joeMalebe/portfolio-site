@@ -1,6 +1,7 @@
 import { SpinningTagClouds } from "../../home/components/SpinningTagCloud";
 import { TagCloud } from "react-tagcloud";
 import "../../../colors.scss";
+import "../../../App.scss";
 import getExperiences from "../data/WorkExperience";
 
 const ExperienceRolesAndResponsibility = (experience) => {
@@ -66,7 +67,7 @@ const ExperienceItem = (experience) => {
 function Experience() {
   return (
     <>
-      <div className="container-fluid" style={{paddingTop : "4em"}}>
+      <div className="container-fluid Page" style={{paddingTop : "4em"}}>
         <div className="row">
          {experienceList(getExperiences)}
         </div>
