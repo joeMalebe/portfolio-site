@@ -12,8 +12,7 @@
         color: $text-gray;
         text-decoration: none;
         font-size: 17px;
-        transition: all 1.5s;
-        -webkit-transition: 1s;
+        transition: top 700ms ease-in-out;
         top: 0px;
     }
     a:hover{
