@@ -38,7 +38,7 @@ const Email = (
 function Home() {
   return (
     <>
-      <div className="container-fluid Page">
+      <div className="container Page">
         <div className="row ">
           <div className="col col-lg">
             <div className="vstack gap-3">
@@ -64,7 +64,7 @@ function Home() {
           </div>
 
           <div className="col col-lg">
-            <img src={homeImage} />
+            <img className="img-fluid Main-Photo" src={homeImage} />
           </div>
         </div>
       </div>

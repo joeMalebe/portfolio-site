@@ -5,7 +5,7 @@ export function SpinningTagCloud() {
   return (
     <TagCloud className="Tagcloud"
       options={(window) => ({
-        radius: Math.min(300, window.innerWidth, window.innerHeight) / 2,
+        radius: Math.min(400, window.innerWidth, window.innerHeight) / 2,
         maxSpeed: "fast",
       })}
       onClick={(tag, event) => alert(tag)}
@@ -19,8 +19,11 @@ export function SpinningTagCloud() {
         "SpringBoot",
         "JetPack",
         "JavaScript",
+        "Backbase",
         "RxJava",
         "RoomDB",
+        "Microservice",
+        "MVVM",
         "Firebase",
       ]}
     </TagCloud>
