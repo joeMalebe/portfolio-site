@@ -6,7 +6,7 @@ export class Project {
     this.projectId = projectId;
   }
 }
-const path = "./assets/";
+const path = "portfolio-site/assets/";
 export const projects = [
   new Project(
     path + "clearscore.png",
