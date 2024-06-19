@@ -18,7 +18,7 @@ export function ProjectCard(project) {
         <Card.Body className="CardText">
           <Card.Title>{project.title} </Card.Title>
           <Card.Text> {project.description}</Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          {/* <Button variant="primary">Godsfd somewhere</Button> */}
         </Card.Body>
       </Card>
     </>

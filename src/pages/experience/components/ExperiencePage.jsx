@@ -67,7 +67,7 @@ const ExperienceItem = (experience) => {
 function Experience() {
   return (
     <>
-      <div className="container-fluid Page" style={{paddingTop : "4em"}}>
+      <div className="container-fluid Page" style={{paddingTop : "1em", paddingBottom : "4em"}}>
         <div className="row">
          {experienceList(getExperiences)}
         </div>
