@@ -9,19 +9,27 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "src": "logo.png",
 =======
       "src": "logo192.png",
 >>>>>>> 9b144e6 (Updates)
+=======
+      "src": "logo.png",
+>>>>>>> 6c4a4b1 (Updates)
       "type": "image/png",
       "sizes": "192x192"
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "src": "logo.png",
 =======
       "src": "logo512.png",
 >>>>>>> 9b144e6 (Updates)
+=======
+      "src": "logo.png",
+>>>>>>> 6c4a4b1 (Updates)
       "type": "image/png",
       "sizes": "512x512"
     }
