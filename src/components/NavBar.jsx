@@ -4,19 +4,18 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
-      <div className="NavBar">
-        <a href="#Projects">Projects</a>
+      <div className="NavBar">  
         <Link to="/projects">
           Projects
         </Link>
         <Link to="experience">
           Experience
         </Link>
-        <Link to="/skills">
+        {/* <Link to="/skills">
           Skills
-        </Link>
+        </Link> */}
         <Link to="/">
-          Home
+          Joe
         </Link>
       </div>
     </>
