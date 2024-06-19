@@ -96,7 +96,7 @@ const standardBank = new WorkExperience(
     { value: "Hilt" },
     { value: "Jetpack Compose" },
     { value: "Adobe analytics" },
-    { value: "SignalFx" },
+    { value: "Kibana" },
     { value: "Mvvm" },
     { value: "State Flows" },
     { value: "Bamboo" },
