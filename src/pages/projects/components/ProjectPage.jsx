@@ -7,7 +7,7 @@ const getProjects = (projects) => {
   for (var i = 0; i < projects.length; i++) {
     projectsList.push(
       <div className="col col-lg" key={projects[i].projectId}>
-          {ProjectCard(projects[i])}
+        {ProjectCard(projects[i])}
       </div>
     );
   }
@@ -17,7 +17,7 @@ const getProjects = (projects) => {
 export const Projects = () => {
   return (
     <>
-      <div className="container-fluid Page Scroll-Page">
+      <div className="container-fluid Page">
         <div className="row mt-4">{getProjects(projects)}</div>
       </div>
     </>
