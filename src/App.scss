@@ -1,10 +1,28 @@
-@import 'colors';
-@import 'animate.css';
+@import "colors";
+@import "animate.css";
 
-.Page{
+.Skeleton {
+  height: 100%;
+  width: 100%;
+  background-color: $background-gray;
+  margin: 0;
+  padding: 0;
+}
+
+.Page {
   background-color: $background-gray;
   overflow-y: auto;
   height: 100vh;
+}
+.Scroll-Page {
+  overflow-y: auto;
+}
+
+.Main-Photo {
+  max-width: 50vw;
+  max-height: 80vh;
+  height: auto;
+  width: auto;
 }
 
 .App {
