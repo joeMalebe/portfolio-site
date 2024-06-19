@@ -17,8 +17,8 @@ const getProjects = (projects) => {
 export const Projects = () => {
   return (
     <>
-      <div className="container-fluid Page">
-        <div className="row">{getProjects(projects)}</div>
+      <div className="container-fluid Page Scroll-Page">
+        <div className="row mt-4">{getProjects(projects)}</div>
       </div>
     </>
   );

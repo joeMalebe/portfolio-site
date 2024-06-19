@@ -25,12 +25,14 @@ $height: 200px;
   }
   .CardText {
     opacity: 1;
+    visibility: visible;
     transition: opacity 400ms ease-in-out;
   }
 }
 
 .CardText {
     opacity: 0;
+    visibility: hidden;
     transition: opacity 400ms ease-in-out;
 }
 
