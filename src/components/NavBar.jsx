@@ -8,13 +8,13 @@ function NavBar() {
         <Link to="/projects">
           Projects
         </Link>
-        <Link to="experience">
+        <Link to="/experience">
           Experience
         </Link>
         {/* <Link to="/skills">
           Skills
         </Link> */}
-        <Link to="/">
+        <Link to="/portfolio-site">
           Joe
         </Link>
       </div>
