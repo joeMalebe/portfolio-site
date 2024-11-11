@@ -1,39 +1,46 @@
 @import "../../../colors";
 
-$height: 200px;
-
+$height: 462px;
+$animationSpeed: 400ms;
+$imageHeight:343px;
 .Card {
   color: black;
   fill: black;
   height: $height;
-  width: 18rem;
+  width: 334px;
   margin-bottom: 20px;
   transition: height 400ms ease-in-out;
+  filter: brightness(100%);
 }
 
 .CardImage {
   object-fit: cover;
   width: 100%;
-  height: $height;
+  height: $imageHeight;
   transition: height 400ms linear;
 }
 
 .Card:hover {
-    height: 360px;
+  cursor: pointer;
+  filter: brightness(85%);
+  -webkit-transition: all $animationSpeed ease;
+  -moz-transition: all $animationSpeed ease;
+    -o-transition: all $animationSpeed ease;
+    -ms-transition: all $animationSpeed ease;
+    transition: all $animationSpeed ease;
   .CardImage {
-    height: 0%;
-  }
-  .CardText {
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 400ms ease-in-out;
+   
   }
 }
 
 .CardText {
-    opacity: 0;
-    visibility: hidden;
+    opacity: 100;
     transition: opacity 400ms ease-in-out;
+    font-size: x-large;
+}
+
+.CardBody{
+  text-align: start;
 }
 
 .Page {
