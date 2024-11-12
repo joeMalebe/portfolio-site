@@ -34,13 +34,52 @@ $imageHeight:343px;
 }
 
 .CardText {
-    opacity: 100;
-    transition: opacity 400ms ease-in-out;
-    font-size: x-large;
+
+  padding: 8px;
 }
 
 .CardBody{
   text-align: start;
+}
+
+.phone {
+  height: 667px;
+  width: 370px;
+  margin: 10px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  color: $text_white;
+  fill: black;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+  filter: brightness(100%);
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+  -webkit-transition: all $animationSpeed ease;
+  -moz-transition: all $animationSpeed ease;
+    -o-transition: all $animationSpeed ease;
+    -ms-transition: all $animationSpeed ease;
+    transition: all $animationSpeed ease;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.phone img{
+  border-radius: 5px 5px 0 0;
+  height: 80%;
+  object-fit: cover;
 }
 
 .center {

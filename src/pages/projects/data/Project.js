@@ -1,11 +1,12 @@
 export class Project {
-  constructor(thumbnail, title, description, projectId, platform, tags) {
+  constructor(thumbnail, title, description, projectId, platform, tags,tint) {
     this.thumbnail = thumbnail;
     this.title = title;
     this.description = description;
     this.projectId = projectId;
-    this.platform = platform
-    this.tags = tags
+    this.platform = platform;
+    this.tags = tags;
+    this.tint = tint;
   }
 }
 const path = "portfolio-site/assets/";
@@ -16,7 +17,8 @@ export const projects = [
     "I developed Node feature service endpoints using JavaScript to cater to frontend clients. Additionally, I made configuration changes in Scala backend services to handle services that needed to be rendered to specific markets. In Android development, I wrote features in Jetpack Compose using the MVVM architecture, while also conducting UI testing using Espresso.",
     "1",
     "Android",
-    "Mvvm node scala"
+    "Mvvm node scala",
+    "#3E4A4B"
   ),
   new Project(
     path + "discovery.png",
@@ -24,7 +26,8 @@ export const projects = [
     "I developed custom animated views for Discovery's app and built microservices with Spring Boot for both web and mobile clients. I implemented a feature using the Google Maps API to help users locate various vendors. I also led my team in transitioning from Java to Kotlin and adopting the MVI design pattern.",
     "2",
     "Android",
-    "Mvi rxJava spring-boot Java"
+    "Mvi rxJava spring-boot Java",
+    "#105297"
   ),
   new Project(
     path + "budgetBliss.png",
@@ -32,7 +35,8 @@ export const projects = [
     "Budget Bliss is a native Android app built with Room for local database management and MVP architecture pattern with RxJava. It empowers users to track spending habits and income sources efficiently. With intuitive transaction recording and insightful reports, Budget Bliss promotes financial awareness and control with ease.",
     "3",
     "Android",
-    "Mvp charts Room RxKotlin"
+    "Mvp charts Room RxKotlin",
+    "#1D82D4"
   )
 ];
 
