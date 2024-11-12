@@ -8,7 +8,8 @@ export function SpinningTagCloud() {
         radius: Math.min(400, window.innerWidth, window.innerHeight) / 2,
         maxSpeed: "fast",
       })}
-      onClick={(tag, event) => alert(tag)}
+      style={{fontFamily: "roboto"}}
+      onClick={(tag, event) => {}/*alert(tag)*/}
       onClickOptions={{ passive: true }}
     >
       {[

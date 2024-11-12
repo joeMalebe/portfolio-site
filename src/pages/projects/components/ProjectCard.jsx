@@ -1,47 +1,47 @@
 import Card from "react-bootstrap/Card";
 import "../components/ProjectCards.scss";
 import { useNavigate } from "react-router-dom";
+import { Row, Col } from "react-bootstrap";
 
 const styles = {
-cardImage: {
-    objectFit: 'cover',
-    width: '100%',
-    height: '30%',
-    }
-}
+  cardImage: {
+    objectFit: "cover",
+    width: "100%",
+    height: "30%",
+  },
+};
 
 export function ProjectCard(project) {
   const navigate = useNavigate();
   const handleClick = (title) => {
     var url = "/project?name=";
-    console.log("clicked" + url)
+    console.log("clicked" + url);
     navigate(url.concat(title));
   };
   return (
     <>
-    <div className="card phone" style={{backgroundColor: project.tint}} onClick={() => handleClick(project.title)}>
-
-      <img src={project.thumbnail}/>
-      <div className="CardText">
-      <h2 >{project.title}</h2>
-      <h3 >{project.platform}</h3>
-      <p >{project.tags}</p>
+      <div
+        className="card phone"
+        style={{ backgroundColor: project.tint }}
+        onClick={() => handleClick(project.title)}
+      >
+        <img className="Thumbnail" src={project.thumbnail} />
+        
+          <div className="container">
+            <Row className="align-items-center">
+              <Col xs={2}>
+                <img className="Logo " src={project.logo} />
+              </Col>
+              <Col>
+                <div className="CardText">
+                  <h5>{project.title}</h5>
+                  <h6>{project.platform}</h6>
+                  <p className="roboto-light">{project.tags}</p>
+                </div>
+              </Col>
+            </Row>
+          </div>
       </div>
-    </div>
-
-    {/* 
-      <Card className="Card" bg="dark" text="light" onClick={
-       ()=> handleClick(project.title)
-      }>
-        <Card.Img variant="top" src={project.thumbnail } className="CardImage"/>
-        <Card.Body >
-        <Card.Img variant="bottom" src={project.thumbnail } className="CardImage"/>
-          <Card.Title className="CardText">{project.title} </Card.Title>
-          <Card.Subtitle className="CardBody">{project.platform}</Card.Subtitle>
-          <Card.Text className="CardBody">{project.tags}</Card.Text>
-        </Card.Body>
-      </Card>
-      */}
     </>
   );
 }

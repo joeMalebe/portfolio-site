@@ -23,19 +23,25 @@ $imageHeight:343px;
 .Card:hover {
   cursor: pointer;
   filter: brightness(85%);
-  -webkit-transition: all $animationSpeed ease;
-  -moz-transition: all $animationSpeed ease;
-    -o-transition: all $animationSpeed ease;
-    -ms-transition: all $animationSpeed ease;
-    transition: all $animationSpeed ease;
+  -webkit-transition: all $animationSpeed ease-in-out;
+  -moz-transition: all $animationSpeed ease-in-out;
+    -o-transition: all $animationSpeed ease-in-out;
+    -ms-transition: all $animationSpeed ease-in-out;
+    transition: all $animationSpeed ease-in-out;
   .CardImage {
    
   }
 }
 
 .CardText {
+  padding-top: 24px;
+  padding-left: 20px;
 
-  padding: 8px;
+  -webkit-transition: all $animationSpeed ease-in-out;
+  -moz-transition: all $animationSpeed ease-in-out;
+    -o-transition: all $animationSpeed ease-in-out;
+    -ms-transition: all $animationSpeed ease-in-out;
+    transition: all $animationSpeed ease-in-out;
 }
 
 .CardBody{
@@ -48,6 +54,15 @@ $imageHeight:343px;
   margin: 10px;
 }
 
+
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .card {
   /* Add shadows to create the "card" effect */
   color: $text_white;
@@ -56,19 +71,27 @@ $imageHeight:343px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
   filter: brightness(100%);
   border-radius: 5px; /* 5px rounded corners */
+  -webkit-transition: all $animationSpeed ease-in-out;
+  -moz-transition: all $animationSpeed ease-in-out;
+    -o-transition: all $animationSpeed ease-in-out;
+    -ms-transition: all $animationSpeed ease-in-out;
+    transition: all $animationSpeed ease-in-out;
 }
-
-
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   cursor: pointer;
   filter: brightness(85%);
-  -webkit-transition: all $animationSpeed ease;
-  -moz-transition: all $animationSpeed ease;
-    -o-transition: all $animationSpeed ease;
-    -ms-transition: all $animationSpeed ease;
-    transition: all $animationSpeed ease;
+  
+    .Logo{
+      height: 72px;
+      width: 72px;
+      
+    }
+    .CardText{
+      padding-left: 18px;
+      
+    }
 }
 
 /* Add some padding inside the card container */
@@ -76,10 +99,24 @@ $imageHeight:343px;
   padding: 2px 16px;
 }
 
-.phone img{
+.Thumbnail{
   border-radius: 5px 5px 0 0;
-  height: 80%;
+  height: 82%;
   object-fit: cover;
+}
+
+.Logo {
+  height: 64px;
+  width: 64px;
+  
+  border-radius: 8px;
+  border: 1px solid grey;
+  object-fit: cover;
+  -webkit-transition: all $animationSpeed ease-in-out;
+  -moz-transition: all $animationSpeed ease-in-out;
+    -o-transition: all $animationSpeed ease-in-out;
+    -ms-transition: all $animationSpeed ease-in-out;
+    transition: all $animationSpeed ease-in-out;
 }
 
 .center {

@@ -1,4 +1,5 @@
 @import 'colors';
+$animationSpeed: 700ms;
 .NavBar {
     background-color: $background-gray;
     overflow: hidden;
@@ -9,12 +10,18 @@
         text-align: center;
         color: $text-gray;
         text-decoration: none;
-        font-size: 17px;
-        transition: top 700ms ease-in-out;
+        font-size: 16px;
         top: 0px;
+        transition: all $animationSpeed ease-in-out;
+        -webkit-transition: all $animationSpeed ease-in-out;
+  -moz-transition: all $animationSpeed ease-in-out;
+    -o-transition: all $animationSpeed ease-in-out;
+    -ms-transition: all $animationSpeed ease-in-out;
+    transition: all $animationSpeed ease-in-out;
     }
     a:hover{
         position: relative;
+        
         top: 8px;
         color: $primaryColour;
     }

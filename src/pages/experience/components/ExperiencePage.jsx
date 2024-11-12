@@ -49,7 +49,7 @@ const ExperienceItem = (experience) => {
                 minSize={10}
                 maxSize={15}
                 tags={experience.tags}
-                style={{ width: "13vw", textAlign: "left" }}
+                style={{ width: "13vw", textAlign: "left", fontFamily:"roboto"}}
                 colorOptions={{
                   luminosity: "bright",
                   hue: "green",
