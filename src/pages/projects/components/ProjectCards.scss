@@ -43,6 +43,13 @@ $imageHeight:343px;
   text-align: start;
 }
 
+.center {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
+
 .Page {
   background-color: $background-gray;
   height: 100vh;
