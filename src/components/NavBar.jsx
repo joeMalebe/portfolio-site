@@ -5,16 +5,16 @@ function NavBar() {
   return (
     <>
       <div className="NavBar">  
-        <Link to="/projects">
+        <Link to="/projects" className="roboto-regular">
           Projects
         </Link>
-        <Link to="/experience">
+        <Link to="/experience" className="roboto-regular">
           Experience
         </Link>
         {/* <Link to="/skills">
           Skills
         </Link> */}
-        <Link to="/portfolio-site">
+        <Link to="/portfolio-site" className="roboto-regular">
           Joe
         </Link>
       </div>

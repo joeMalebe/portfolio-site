@@ -1,26 +1,47 @@
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "../components/ProjectCards.scss";
+import { useNavigate } from "react-router-dom";
+import { Row, Col } from "react-bootstrap";
 
 const styles = {
-cardImage: {
-    objectFit: 'cover',
-    width: '100%',
-    height: '30%',
-    }
-}
+  cardImage: {
+    objectFit: "cover",
+    width: "100%",
+    height: "30%",
+  },
+};
 
 export function ProjectCard(project) {
+  const navigate = useNavigate();
+  const handleClick = (title) => {
+    var url = "/project?name=";
+    console.log("clicked" + url);
+    navigate(url.concat(title));
+  };
   return (
     <>
-      <Card className="Card" bg="dark" text="light">
-        <Card.Img variant="top" src={project.thumbnail } className="CardImage"/>
-        <Card.Body className="CardText">
-          <Card.Title>{project.title} </Card.Title>
-          <Card.Text> {project.description}</Card.Text>
-          {/* <Button variant="primary">Godsfd somewhere</Button> */}
-        </Card.Body>
-      </Card>
+      <div
+        className="card phone"
+        style={{ backgroundColor: project.tint }}
+        onClick={() => handleClick(project.title)}
+      >
+        <img className="Thumbnail" src={project.thumbnail} />
+        
+          <div className="container">
+            <Row className="align-items-center">
+              <Col xs={2}>
+                <img className="Logo " src={project.logo} />
+              </Col>
+              <Col>
+                <div className="CardText">
+                  <h5>{project.title}</h5>
+                  <h6>{project.platform}</h6>
+                  <p className="roboto-light">{project.tags}</p>
+                </div>
+              </Col>
+            </Row>
+          </div>
+      </div>
     </>
   );
 }
