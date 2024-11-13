@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d06a34b-8b76-495d-a4f2-9d14d84488d1" name="Changes" comment="" />
+    <list default="true" id="0d06a34b-8b76-495d-a4f2-9d14d84488d1" name="Changes" comment="config files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +16,16 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="experience" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2olC6tnCl0kXHLymTOiwZZ3ZZzW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +38,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "experience",
+    "git-widget-placeholder": "november",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/joe.malebe/workspace/portfolio-site",
     "project.structure.last.edited": "SDK Location",
@@ -48,6 +55,15 @@
       <option name="presentableId" value="Default" />
       <updated>1731434604089</updated>
     </task>
+    <task id="LOCAL-00001" summary="config files">
+      <option name="closed" value="true" />
+      <created>1731479495912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731479495912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="config files" />
+    <option name="LAST_COMMIT_MESSAGE" value="config files" />
   </component>
 </project>
