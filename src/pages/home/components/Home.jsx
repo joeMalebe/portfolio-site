@@ -1,10 +1,11 @@
 import homeImage from "../assets/homeImg.png";
 import SpinningTagCloud from "./SpinningTagCloud";
 import { SocialIcon } from "react-social-icons";
+import { Row, Col } from "react-bootstrap";
 import "./Home.scss";
 
 const style = { width: 35, height: 35, margin: 6 };
-
+const path = "portfolio-site/assets/profile3.png";
 const Github = (
   <SocialIcon
     url="https://github.com/joeMalebe"
@@ -40,31 +41,32 @@ function Home() {
     <>
       <div className="container Page">
         <div className="row ">
-          <div className="col col-lg">
+          <div className="col col-md-4">
             <div className="vstack gap-3">
               <div className="Slogan">
                 <h4 className="line2 anim-typewriter2 SloganBody">
                   Joe Malebe
                 </h4>
                 <p className="line1 anim-typewriter1 SloganBody">
-                The Software Engineer
+                  The Software Engineer
                 </p>
               </div>
               <div>
                 <SpinningTagCloud />
-                <span className="SocialIcons">
-                  {Github}
-                  {LinkedIn}
-                  {StackOverflow}
-                  {AppStore}
-                  {Email}
-                </span>
+              </div>
+              <div className="SocialIcons mb-5">
+                
+                <span className="SocialIcon">{Github}</span>
+                <span className="SocialIcon">{LinkedIn}</span>
+                <span className="SocialIcon">{StackOverflow}</span>
+                <span className="SocialIcon">{AppStore}</span>
+                <span className="SocialIcon">{Email}</span>
               </div>
             </div>
           </div>
 
-          <div className="col col-lg">
-            <img className="img-fluid Main-Photo" src={homeImage} />
+          <div className="col col-md Main-Photo" style={{backgroundImage: `url('${homeImage}')`}}>
+            
           </div>
         </div>
       </div>
