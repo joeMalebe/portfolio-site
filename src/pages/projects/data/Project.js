@@ -43,7 +43,7 @@ export const projects = [
     "#173B80"
   ),
   new Project(
-    path + "budgetBliss2.png",
+    path + "budgetbliss2.png",
     path + "sqwareIcn.png",
     "Budget Bliss",
     "Budget Bliss is a native Android app built with Room for local database management and MVP architecture pattern with RxJava. It empowers users to track spending habits and income sources efficiently. With intuitive transaction recording and insightful reports, Budget Bliss promotes financial awareness and control with ease.",
