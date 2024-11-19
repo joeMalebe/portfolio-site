@@ -51,6 +51,36 @@ export const projects = [
     "Android",
     "Mvp charts Room RxKotlin",
     "#1D82D4"
+  ),
+  new Project(
+    path + "healthCare.png",
+    path + "sqwareIcn.png",
+    "Healing hand",
+    "Health app using swiftUi with Mapkit",
+    "5",
+    "Ios",
+    "SwiftUi MapKit",
+    "#735499"
+  ),
+  new Project(
+    path + "gymGuild.png",
+    path + "sqwareIcn.png",
+    "Gym Guild",
+    "Gym app using compose animation to handle navigation transitions.",
+    "6",
+    "Android",
+    "Animation",
+    "#282F43"
+  ),
+  new Project(
+    path + "learningLab.png",
+    path + "sqwareIcn.png",
+    "Learning Lab",
+    "Learning platform using compose navigation with safe args.",
+    "7",
+    "Android",
+    "Compose navigation",
+    "#282F43"
   )
 ];
 
