@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d06a34b-8b76-495d-a4f2-9d14d84488d1" name="Changes" comment="update project images" />
+    <list default="true" id="0d06a34b-8b76-495d-a4f2-9d14d84488d1" name="Changes" comment="fix budget bliss file name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731497540487</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix budget bliss file name">
+      <option name="closed" value="true" />
+      <created>1731498548820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731498548820</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="config files" />
     <MESSAGE value="update project images" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project images" />
+    <MESSAGE value="fix budget bliss file name" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix budget bliss file name" />
   </component>
 </project>
