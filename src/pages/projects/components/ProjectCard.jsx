@@ -16,7 +16,7 @@ export function ProjectCard(project) {
   const handleClick = (title) => {
     var url = "/project?name=";
     console.log("clicked" + url);
-    navigate(url.concat(title));
+    //todo handle navigation after creating product discription screen. navigate(url.concat(title));
   };
   return (
     <>
