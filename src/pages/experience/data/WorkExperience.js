@@ -91,7 +91,7 @@ const standardBank = new WorkExperience(
       "Leveraged sophisticated analytics tools such as Adobe Analytics to monitor feature performance and user engagement in production environments. Utilized Firebase for real-time crash reporting, enabling prompt identification and resolution of application issues."
     ),
   ],
-  "1 year",
+  "3 years",
   [
     { value: "Hilt" },
     { value: "Jetpack Compose" },
